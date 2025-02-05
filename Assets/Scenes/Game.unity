@@ -1351,6 +1351,7 @@ GameObject:
   - component: {fileID: 1310667768}
   - component: {fileID: 1310667767}
   - component: {fileID: 1310667769}
+  - component: {fileID: 1310667770}
   m_Layer: 0
   m_Name: RacketPlayer2
   m_TagString: Untagged
@@ -1506,12 +1507,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310667762}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb9d8da8062f43e4bb7d20319132aa98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 200
+--- !u!114 &1310667770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310667762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 214c5b4e93edd08499fdbd23c44bc409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 200
+  ball: {fileID: 1576542624}
 --- !u!1 &1368329891
 GameObject:
   m_ObjectHideFlags: 0
